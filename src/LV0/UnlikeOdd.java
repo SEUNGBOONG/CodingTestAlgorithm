@@ -3,7 +3,7 @@ package LV0;
 public class UnlikeOdd {
     public int[] solution(int n) {
         int[] answer = new int[(n + 1) / 2];
-        int j = 0; // 배열의 인덱스
+        int j = 0;
         extracted(n, answer, j);
         return answer;
     }
