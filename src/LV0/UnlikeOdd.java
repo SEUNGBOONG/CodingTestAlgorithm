@@ -2,7 +2,7 @@ package LV0;
 
 public class UnlikeOdd {
     public int[] solution(int n) {
-        int[] answer = new int[(n + 1) / 2]; // n 이하의 홀수가 들어갈 배열의 크기
+        int[] answer = new int[(n + 1) / 2];
         int j = 0; // 배열의 인덱스
         extracted(n, answer, j);
         return answer;
