@@ -6,7 +6,6 @@ public class UnlikeOdd {
 
         int j = 0; // 배열의 인덱스
         extracted(n, answer, j);
-
         return answer;
     }
     private static void extracted(final int n, final int[] answer, int j) {
