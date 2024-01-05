@@ -9,7 +9,6 @@ public class UnlikeOdd {
 
         return answer;
     }
-
     private static void extracted(final int n, final int[] answer, int j) {
         for (int i = 1; i <= n; i += 2) {
             answer[j] = i;
