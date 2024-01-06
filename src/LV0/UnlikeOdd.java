@@ -13,7 +13,7 @@ public class UnlikeOdd {
     private static void extracted(final int n, final int[] answer, int j) {
         for (int i = 1; i <= n; i += 2) {
             answer[j] = i;
-            j++; // 다음 인덱스로 이동
+            j++;
         }
     }
 }
