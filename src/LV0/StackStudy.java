@@ -9,7 +9,6 @@ public class StackStudy {
         stack.push(2);
         stack.push(3);
         System.out.println(stack);
-
         System.out.println(stack.pop());
         //LIFO 형식이다보니 가장 마지막에 들어간 3이빠져나간다.
 
@@ -19,9 +18,7 @@ public class StackStudy {
             stack.pop();
         }
         //스택이 비어있는지 확인
-
         stack.add(0,4);
-
     }
 
 
