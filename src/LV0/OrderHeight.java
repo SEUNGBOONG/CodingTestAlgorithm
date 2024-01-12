@@ -6,9 +6,14 @@ public class OrderHeight {
         int i;
 
         for(i=0;i<array.length;i++){
-            if(array[i]>height){
-                answer++;
-            }
+            answer = getAnswer(array, height, i, answer);
+        }
+        return answer;
+    }
+
+    private static int getAnswer(final int[] array, final int height, final int i, int answer) {
+        if(array[i]> height){
+            answer++;
         }
         return answer;
     }
