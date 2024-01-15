@@ -14,7 +14,7 @@ public class MiddleValue {
         }
         else {
             int middleIndex = array.length / 2;
-            median = (array[middleIndex - 1] + array[middleIndex]) / 2; // 중앙 두 값의 평균
+            median = (array[middleIndex - 1] + array[middleIndex]) / 2;
         }
 
         return median;
