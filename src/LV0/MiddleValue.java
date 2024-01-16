@@ -5,10 +5,8 @@ import java.util.Arrays;
 
 public class MiddleValue {
     public int solution(int[] array) {
-        // 배열을 오름차순으로 정렬
         Arrays.sort(array);
 
-        // 중앙값을 저장할 변수
         int median;
 
         if (array.length % 2 == 1) {
