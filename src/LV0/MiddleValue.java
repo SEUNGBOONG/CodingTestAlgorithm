@@ -12,7 +12,7 @@ public class MiddleValue {
         int median;
 
         if (array.length % 2 == 1) {
-            median = array[array.length / 2]; // 중앙값은 중간 위치의 요소
+            median = array[array.length / 2];
         }
         else {
             int middleIndex = array.length / 2;
