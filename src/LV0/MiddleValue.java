@@ -11,7 +11,6 @@ public class MiddleValue {
         // 중앙값을 저장할 변수
         int median;
 
-        // 배열의 길이가 홀수인 경우
         if (array.length % 2 == 1) {
             median = array[array.length / 2]; // 중앙값은 중간 위치의 요소
         }
