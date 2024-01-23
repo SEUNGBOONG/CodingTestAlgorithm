@@ -10,7 +10,7 @@ public class Letter {
             if (Character.isUpperCase(chars[i])) { // 대문자인 경우
                 chars[i] = Character.toLowerCase(chars[i]); // 대문자를 소문자로 변환
             } else if (Character.isLowerCase(chars[i])) { // 소문자인 경우
-                chars[i] = Character.toUpperCase(chars[i]); // 소문자를 대문자로 변환
+                chars[i] = Character.toUpperCase(chars[i]);
             }
         }
 
