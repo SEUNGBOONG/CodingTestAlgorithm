@@ -5,7 +5,6 @@ public class IceAmericano {
         int[] answer = new int[2];
         int iceAmericano = 5500;
         extracted(money, iceAmericano, answer);
-
         return answer;
     }
 
