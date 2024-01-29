@@ -2,6 +2,11 @@ package LV0;
 
 public class HiddenNumber {
     public int solution(String my_string) {
+        int answer = getAnswer(my_string);
+        return answer;
+    }
+
+    private static int getAnswer(final String my_string) {
         int answer = 0;
         for (int i = 0; i < my_string.length(); i++) {
             char currentChar = my_string.charAt(i);
