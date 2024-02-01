@@ -4,7 +4,6 @@ public class evenSum {
     public int solution(int n) {
         int answer = 0;
         int i;
-
         answer = getAnswer(n, answer);
         return answer;
     }
