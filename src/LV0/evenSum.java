@@ -8,7 +8,6 @@ public class evenSum {
         answer = getAnswer(n, answer);
         return answer;
     }
-
     private static int getAnswer(final int n, int answer) {
         int i;
         for(i=0; i<= n; i++){
