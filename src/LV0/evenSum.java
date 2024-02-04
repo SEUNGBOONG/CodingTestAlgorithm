@@ -9,7 +9,6 @@ public class evenSum {
                answer+=i;
            }
         }
-
         return answer;
     }
 }
