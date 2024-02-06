@@ -13,7 +13,6 @@ public class dupliArr {
             }
             answer=count;
         }
-
         return answer;
     }
 }
