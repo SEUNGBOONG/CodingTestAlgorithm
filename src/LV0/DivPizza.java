@@ -10,7 +10,6 @@ public class DivPizza {
         } else {
             answer = n / PIZZA_PIECE + 1; // 피자 조각의 수가 7의 배수가 아닌 경우
         }
-
         return answer;
     }
 }
