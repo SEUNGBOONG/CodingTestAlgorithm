@@ -8,7 +8,6 @@ public class avgArr {
             sum += numbers[i];
         }
         double answer = (sum / numbers.length);
-
         return answer;
     }
 }
