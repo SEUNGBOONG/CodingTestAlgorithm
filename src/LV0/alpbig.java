@@ -10,8 +10,9 @@ public class alpbig {
         return my_string;
     }
 
+
     public static void main(String[] args) {
-        alpbig a =new alpbig();
-        System.out.println(a.solution("prog","e"));
+        alpbig a = new alpbig();
+        System.out.println(a.solution("prog", "e"));
     }
 }
