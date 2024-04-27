@@ -8,6 +8,5 @@ public class 사칙연산 {
 
     public int minus(int x, int y) {
         return x - y;
-
     }
 }
