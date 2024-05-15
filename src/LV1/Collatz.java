@@ -2,9 +2,18 @@ package LV1;
 
 public class Collatz {
     public int solution(int num) {
-        int answer;
-        while ()
-            num=(num%2==0) ? (num/2) : (num*3)+1;
-
+        long n = num;
+        int answer = 0;
+        while (n != 1) {
+            if (n % 2 == 0) {
+                n /=  2;
+            } else
+                n = (n * 3) + 1;
+            answer++;
+            if (answer >= 500) {
+                return -1;
+            }
+        }
         return answer;
+    }
 }
