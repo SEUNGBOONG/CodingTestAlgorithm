@@ -9,7 +9,8 @@ public class OnlyNum {
             return false;
         {
             try{
-                int isNum= Integer.valueOf(s); // parseInt 도 가능
+                int isNum= Integer.valueOf(s);
+//                int isNum2= Integer.parseInt(s); 둘다 가능
             }catch (Exception e ){
                 return false;
             }
