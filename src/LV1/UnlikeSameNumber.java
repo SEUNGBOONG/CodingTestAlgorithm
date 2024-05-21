@@ -9,7 +9,6 @@ public class UnlikeSameNumber {
                 .distinct()
                 .toArray();
         return answer;
-
     }
 
 }
