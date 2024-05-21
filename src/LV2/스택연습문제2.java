@@ -15,7 +15,6 @@ public class 스택연습문제2 {
             char c = s.charAt(i);
         }
 
-        // 4. 스택 사이즈를 보고 정답이 맞는지 아닌지 반환한다
         return branket.isEmpty();
     }
 }
