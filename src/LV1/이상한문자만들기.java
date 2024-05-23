@@ -1,7 +1,5 @@
 package LV1;
 
-import java.util.List;
-import java.util.Stack;
 
 public class 이상한문자만들기 {
     public String solution(String s) {
