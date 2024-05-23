@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Stack;
 
 public class 스택연습문제2 {
-//    boolean solution(String s) {
+    //    boolean solution(String s) {
 //        // stack으로 문제 푼다
 //        Stack<Character> branket = new Stack<>();
 //        boolean answer = false;
@@ -18,20 +18,19 @@ public class 스택연습문제2 {
 //        }
 //
 //        return branket.isEmpty();
-        public boolean solution(String s) {
-            Stack<Character> stack = new Stack<>();
+    public boolean solution(String s) {
+        Stack<Character> stack = new Stack<>();
 
-            for (int i = 0; i < s.length(); i++) {
-                char c = s.charAt(i);
-                if (c == '(') {
-                    stack.push(c);
-                } else {
-                    if (stack.isEmpty() || stack.pop() != '(') {
-                        return false;
-                    }
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == '(') {
+                stack.push(c);
+            } else {
+                if (stack.isEmpty() || stack.pop() != '(') {
+                    return false;
                 }
             }
-
-            return stack.isEmpty();
+        }
+        return stack.isEmpty();
     }
 }
