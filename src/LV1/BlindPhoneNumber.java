@@ -14,7 +14,6 @@ public class BlindPhoneNumber {
             else
                 answer += num[i];
         }
-
         return answer;
     }
 }
