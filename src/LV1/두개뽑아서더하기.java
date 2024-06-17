@@ -20,7 +20,6 @@ public class 두개뽑아서더하기 {
 
         List<Integer> resultList = new ArrayList<>(resultSet);
         Collections.sort(resultList);
-
         return resultList;
     }
 }
