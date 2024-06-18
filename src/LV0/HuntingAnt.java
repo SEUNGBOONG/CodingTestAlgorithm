@@ -9,11 +9,7 @@ public class HuntingAnt {
         soldierAnt=(hp/3);
         hp=hp%3;
         workAnt=hp/1;
-        Result result = new Result(generalAnt, soldierAnt, workAnt);
-        answer= result.generalAnt() + result.soldierAnt() + result.workAnt();
+        answer=generalAnt+soldierAnt+workAnt;
         return answer;
-    }
-
-    private record Result(int generalAnt, int soldierAnt, int workAnt) {
     }
 }

@@ -6,7 +6,6 @@ public class lambSkewers {
         int serviceN=n/10;
         int sheep=12000;
         int coke=2000;
-
         answer=sheep*n+coke*k-coke*serviceN;
         return answer;
     }
