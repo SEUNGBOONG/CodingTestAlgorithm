@@ -11,7 +11,7 @@ public class 폰켓몬종류 {
                 number.add(nums[i]);
             }
         }
-        int answer = number.size();
+        int answer = Math.min(nums.length/2,number.size());
 
         return answer;
     }
