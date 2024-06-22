@@ -1,11 +1,19 @@
 package LV1;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class 소수만들기 {
     public int solution(int[] nums) {
-        int answer = -1;
 
-        // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
-        System.out.println("Hello Java");
+        Arrays.sort(nums);
+        List<Integer> list = new ArrayList<>();
+        for (int j = 0; j < 3; j++)
+            for (int i = 0; i < nums.length; i++) {
+
+            }
+        int answer = -1;
 
         return answer;
     }
