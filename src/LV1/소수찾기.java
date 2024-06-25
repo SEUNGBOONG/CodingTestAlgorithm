@@ -4,22 +4,20 @@ import java.util.List;
 
 public class 소수찾기 {
     public int solution(int n) {
-        int i;
-        int answer = 0;
+        int answer = 1;
 
-        if (n >= 3) {
-            answer = 2;
-            for (i = 4; i <= n; i++) {
-
-                if (i % 2 != 0 && i % 3 != 0) {
-                    answer++;
+        for (int i = 3; i <= n; i++) {
+            int cnt = 0;
+            for (int j = 2; j <= Math.sqrt(i); j++) {
+                if (i % j == 0) {
+                    cnt++;
+                    break;
                 }
             }
+            if(cnt == 0) {
+                answer++;
+            }
         }
-        else if (n <= 3) {
-            answer = 1;
-        }
-
         return answer;
     }
 
