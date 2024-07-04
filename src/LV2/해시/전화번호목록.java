@@ -1,8 +1,6 @@
-package LV2;
+package LV2.해시;
 
-import java.util.Arrays;
-
-public class 해시전화번호목록 {
+public class 전화번호목록 {
     public boolean solution(String[] phone_book) {
         boolean answer = true;
         for (int i = 0; i < phone_book.length; i++) {

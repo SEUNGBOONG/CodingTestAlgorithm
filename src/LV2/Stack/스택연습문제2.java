@@ -1,4 +1,4 @@
-package LV2;
+package LV2.Stack;
 
 import java.util.List;
 import java.util.Stack;
