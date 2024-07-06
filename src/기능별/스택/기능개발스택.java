@@ -1,4 +1,4 @@
-package LV2.Stack;
+package 기능별.스택;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
