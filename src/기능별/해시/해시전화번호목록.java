@@ -1,4 +1,4 @@
-package LV2.해시;
+package 기능별.해시;
 
 import java.util.Arrays;
 import java.util.HashMap;
