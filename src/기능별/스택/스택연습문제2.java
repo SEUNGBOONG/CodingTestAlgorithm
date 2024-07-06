@@ -1,6 +1,5 @@
-package LV2.Stack;
+package 기능별.스택;
 
-import java.util.List;
 import java.util.Stack;
 
 public class 스택연습문제2 {
