@@ -1,4 +1,4 @@
-package 기능별.스택;
+package 기능별.스택큐;
 
 import java.util.Stack;
 
