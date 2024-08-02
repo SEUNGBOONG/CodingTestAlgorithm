@@ -1,31 +1,31 @@
 package 기능별.스택큐;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.Collections;
+import java.util.PriorityQueue;
 
 public class 프로세스 {
     public int solution(int[] priorities, int location) {
+
         int answer = 0;
-        Queue<Integer> queue = new LinkedList<>();
+        PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
 
 
-        List<Integer> a = (List<Integer>) Arrays.stream(priorities).sorted();
-
-
-        for (int i = location; i < priorities.length; i++) {
-            queue.add(priorities[i]);
+        for (int i : priorities) {
+            queue.offer(i);
         }
-        for (int j = 0; j < location; j++) {
-            queue.add(priorities[j]);
-        }
-        while (priorities[location] == queue.peek()) {
-            queue.poll();
-            answer++;
-        }
+        while (!queue.isEmpty()) {
 
+            for (int i = 0; i < priorities.length; i++) {
+                if (queue.peek() == priorities[i]){
+                    queue.poll();
+                    answer++;
+                    if (location == i) {
+                        return answer;
+                    }
+                }
+            }
+
+        }
         return answer;
     }
 }
