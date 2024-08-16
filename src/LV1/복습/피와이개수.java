@@ -5,17 +5,17 @@ public class 피와이개수 {
 
     boolean solution(String s) {
 
+        s=s.toLowerCase();
         int pCount = 0;
         int yCount = 0;
 
 
-        String[] a;
-        a= s.split("");
-        for(int i = 0; i<a.length; i++){
-            if(a[i]=="p" || a[i]=="P"){
+        for(int i = 0; i<s.length(); i++){
+            char a = s.charAt(i);
+            if(a=='p'){
                 pCount++;
             }
-            else if(a[i]=="y"||a[i]=="Y"){
+            else if(a == 'y'){
                 yCount++;
             }
         }
@@ -26,7 +26,7 @@ public class 피와이개수 {
 
     public static void main(String[] args) {
         피와이개수 d = new 피와이개수();
-        System.out.println(d.solution("pPoooyY"));
+        System.out.println(d.solution("pPY"));
 
     }
 }
