@@ -15,5 +15,4 @@ public class 최솟값만들기 {
         }
         return answer;
     }
-
 }
