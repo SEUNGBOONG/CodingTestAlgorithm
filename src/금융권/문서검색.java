@@ -1,7 +1,5 @@
 package 금융권;
 
-import LV1.문자열내P와Y개수;
-
 import java.util.ArrayList;
 import java.util.List;
 
