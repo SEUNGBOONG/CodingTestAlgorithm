@@ -1,4 +1,4 @@
-package 금융권;
+package 금융권.sol;
 
 import java.util.ArrayList;
 import java.util.List;
