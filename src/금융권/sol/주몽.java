@@ -1,13 +1,10 @@
 package 금융권.sol;
 
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class 주몽 {
@@ -29,17 +26,14 @@ public class 주몽 {
         int j = N - 1;
         int count = 0;
 
-        while(i<j){
-            if(arr[i]+arr[j]>M){
+        while (i < j) {
+            if (arr[i] + arr[j] > M) {
                 j--;
-            }
-            else if(arr[i] + arr[j] <M){
+            } else if (arr[i] + arr[j] < M) {
                 i++;
 
-            }
-
-            else{
-                count ++;
+            } else {
+                count++;
                 i++;
                 j--;
 
