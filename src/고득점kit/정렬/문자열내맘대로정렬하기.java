@@ -1,8 +1,7 @@
-package 기능별.정렬;
+package 고득점kit.정렬;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 public class 문자열내맘대로정렬하기 {
     public String[] solution(String[] strings, int n) {

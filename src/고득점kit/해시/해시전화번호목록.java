@@ -1,6 +1,5 @@
-package 기능별.해시;
+package 고득점kit.해시;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 

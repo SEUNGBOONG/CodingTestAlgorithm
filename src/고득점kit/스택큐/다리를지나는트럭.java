@@ -1,6 +1,5 @@
-package 기능별.스택큐;
+package 고득점kit.스택큐;
 
-import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 

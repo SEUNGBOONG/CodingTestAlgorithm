@@ -1,4 +1,4 @@
-package 기능별.해시;
+package 고득점kit.해시;
 
 public class 전화번호목록 {
     public boolean solution(String[] phone_book) {

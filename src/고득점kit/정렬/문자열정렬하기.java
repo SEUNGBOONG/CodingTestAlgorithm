@@ -1,10 +1,8 @@
-package 기능별.정렬;
+package 고득점kit.정렬;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.IntStream;
 
 import static java.util.Collections.sort;
 
