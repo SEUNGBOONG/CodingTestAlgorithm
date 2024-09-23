@@ -1,10 +1,7 @@
-package 기능별.정렬;
+package 고득점kit.정렬;
 
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class 가장큰수2 {
 
