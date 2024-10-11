@@ -13,8 +13,8 @@ public class 가장큰수2 {
             str[i] = String.valueOf(numbers[i]);
         }
 
-        Arrays.sort(str, (o1, o2) -> (o2 + o1)
-                .compareTo(o1 + o2));
+        Arrays.sort(str, (s1, s2) -> (s2 + s1)
+                .compareTo(s1 + s2));
         if(str[0].equals("0")){
             return "0";
         }
