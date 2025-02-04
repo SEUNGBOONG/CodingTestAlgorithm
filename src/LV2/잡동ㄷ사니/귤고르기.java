@@ -1,4 +1,4 @@
-package LV2;
+package LV2.잡동ㄷ사니;
 
 import java.util.ArrayList;
 import java.util.Arrays;

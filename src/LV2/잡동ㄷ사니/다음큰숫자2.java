@@ -1,4 +1,4 @@
-package LV2;
+package LV2.잡동ㄷ사니;
 
 public class 다음큰숫자2 {
     public int solution(int n) {

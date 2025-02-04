@@ -1,4 +1,4 @@
-package LV2;
+package LV2.잡동ㄷ사니;
 
 public class 피로도 {
     static int answer = 0;
