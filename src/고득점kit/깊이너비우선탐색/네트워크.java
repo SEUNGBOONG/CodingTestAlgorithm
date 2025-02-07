@@ -22,7 +22,6 @@ public class 네트워크 {
 
     public void dfs(int node, boolean[] visited, int[][] computers){
         visited[node] = true;
-
         for(int i = 0; i < computers.length; i++){
             if(visited[i] == false && computers[node][i] == 1){
                 dfs(i, visited, computers);
