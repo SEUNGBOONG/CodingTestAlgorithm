@@ -15,7 +15,7 @@ public class 게임맵최단거리 {
         int i = 0;
         int j = 0;
         while (true) {
-           dfs(maps, visited,answer,i,j);
+            dfs(maps, visited, answer, i, j);
         }
 
     }
@@ -23,8 +23,18 @@ public class 게임맵최단거리 {
     public void dfs(int[][] maps, boolean[][] visited, int answer, int i, int j) {
         answer += maps[i][j];
         visited[i][j] = true;
+
         if (maps[i][j + 1] == 1 && !visited[i][j]) {
             j++;
+        }
+        if (maps[i + 1][j] == 1 && !visited[i][j]) {
+            i++;
+        }
+        if (maps[i - 1][j] == 1 && !visited[i][j]) {
+            i--;
+        }
+        if (maps[i][j - 1] == 1 && !visited[i][j]) {
+            j--;
         }
     }
 }
