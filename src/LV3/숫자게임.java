@@ -14,7 +14,6 @@ public class 숫자게임 {
         return idx;
     }
 
-
     public static void main(String[] args) {
         숫자게임 sol = new 숫자게임();
         sol.solution(new int[]{5,1,3,7},new int[]{2,2,6,8});
