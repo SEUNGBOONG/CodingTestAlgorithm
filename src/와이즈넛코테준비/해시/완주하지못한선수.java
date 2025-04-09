@@ -20,7 +20,6 @@ public class 완주하지못한선수 {
                 for(int j = 0; j<completion.length;j++){
                     if(Objects.equals(participant[i], completion[j])){
                         map.put(1,participant[i]);
-
                     }
                     else{
                         map.put(0,participant[i]);
