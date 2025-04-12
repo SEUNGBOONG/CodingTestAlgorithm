@@ -19,7 +19,6 @@ public class 푸드파이트 {
                 list.add(String.valueOf(food[i]));
             }
         }
-
         for(int i=1;i<food.length/2;i++) {
             for (int j =0; j<food[i];j++){
                 list.add(String.valueOf(food[i]));
