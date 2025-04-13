@@ -15,7 +15,7 @@ public class 가장가까운같은글자 {
             } else {
                 answer[i] = i - lastIndexMap.get(ch);
             }
-            lastIndexMap.put(ch, i); // 현재 위치를 기록
+            lastIndexMap.put(ch, i);
         }
 
         return answer;
