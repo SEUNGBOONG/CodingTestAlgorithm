@@ -1,43 +1,40 @@
 package LV1;
 
-class Connection {
-
-    private static Connection _inst = null;
-    private int count = 0;
-
-    static public Connection get() {
-        if(_inst == null) {
-            _inst = new Connection();
-            return _inst;
-        }
-        return _inst;
-    }
-
-    public void count() {
-        count++;
-    }
-
-    public int getCount() {
-        return count;
-    }
-}
-
 
 public class main {
 
     public static void main(String[] args) {
-
-        Connection conn1 = Connection.get();
-        conn1.count();
-
-        Connection conn2 = Connection.get();
-        conn2.count();
-
-        Connection conn3 = Connection.get();
-        conn3.count();
-
-        conn1.count();
-        System.out.print(conn1.getCount());
+        A b = new B();
+        b.paint();
+        b.draw();
     }
+
+}
+
+public class A {
+    public void paint() {
+        System.out.println("A");
+        draw();
+    }
+
+    public void draw() {
+        System.out.println("B");
+        draw();
+    }
+
+
+}
+
+public class B extends A {
+    public void paint() {
+        super.draw();
+        System.out.println("C");
+        this.draw();
+    }
+
+    public void draw() {
+        System.out.println("D");
+    }
+
 
 }
