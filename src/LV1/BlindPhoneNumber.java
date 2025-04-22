@@ -14,6 +14,7 @@ public class BlindPhoneNumber {
             else
                 answer.append(num[i]);
         }
+
         return answer.toString();
     }
 }
