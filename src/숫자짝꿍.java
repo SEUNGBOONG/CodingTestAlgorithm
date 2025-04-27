@@ -20,6 +20,8 @@ public class 숫자짝꿍 {
                 }
             }
         }
+
+
         num.sort(Comparator.reverseOrder());
         StringBuilder sb = new StringBuilder();
         for (String s : num) {
