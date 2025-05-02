@@ -12,7 +12,6 @@ public class 키패드누르기 {
                     {1, 0}, {1, 1}, {1, 2}, // 4,5,6
                     {2, 0}, {2, 1}, {2, 2}  // 7,8,9
             };
-
             int[] left = {3, 0};
             int[] right = {3, 2};
             for (int num : numbers) {
