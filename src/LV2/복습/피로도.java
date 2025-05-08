@@ -4,8 +4,6 @@ public class 피로도 {
     public int solution(int k, int[][] dungeons) {
         int answer = 0;
         boolean[] visited = new boolean[dungeons.length];
-
-
         for (int i = 0; i < dungeons.length; i++) {
             if (dungeons[i][0] > k) {
                 answer++;
