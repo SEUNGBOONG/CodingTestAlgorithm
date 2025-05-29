@@ -13,7 +13,6 @@ public class ㅁㅇㅇㅇ {
         N = Integer.parseInt(br.readLine());
         price = new int[N][N];
         dp = new int[1 << N][N];
-
         for (int i = 0; i < N; i++) {
             String line = br.readLine();
             for (int j = 0; j < N; j++) {
