@@ -32,7 +32,6 @@ class Exam {
         answer = new String[split.length];
 
         method(split, answer);
-
         return answer;
     }
 
